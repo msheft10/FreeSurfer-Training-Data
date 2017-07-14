@@ -427,3 +427,66 @@ talairach_avi log file is transforms/talairach_avi.log...
 \n mris_label2annot --s sub-09 --hemi rh --ctab /Volumes/CFMI-CFS/opt/fs6/average/colortable_BA.txt --l rh.BA1_exvivo.thresh.label --l rh.BA2_exvivo.thresh.label --l rh.BA3a_exvivo.thresh.label --l rh.BA3b_exvivo.thresh.label --l rh.BA4a_exvivo.thresh.label --l rh.BA4p_exvivo.thresh.label --l rh.BA6_exvivo.thresh.label --l rh.BA44_exvivo.thresh.label --l rh.BA45_exvivo.thresh.label --l rh.V1_exvivo.thresh.label --l rh.V2_exvivo.thresh.label --l rh.MT_exvivo.thresh.label --l rh.entorhinal_exvivo.thresh.label --l rh.perirhinal_exvivo.thresh.label --a BA_exvivo.thresh --maxstatwinner --noverbose \n
 \n mris_anatomical_stats -th3 -mgz -f ../stats/rh.BA_exvivo.stats -b -a ./rh.BA_exvivo.annot -c ./BA_exvivo.ctab sub-09 rh white \n
 \n mris_anatomical_stats -th3 -mgz -f ../stats/rh.BA_exvivo.thresh.stats -b -a ./rh.BA_exvivo.thresh.annot -c ./BA_exvivo.thresh.ctab sub-09 rh white \n
+\n\n#---------------------------------
+# New invocation of recon-all Fri Jul 14 08:31:05 EDT 2017 
+#--------------------------------------------
+#@# MotionCor Fri Jul 14 08:31:05 EDT 2017
+\n cp /Users/freesurfer_user/Documents/GitHub/Edits-FreeSurfer-Training-Data/sub-09/mri/orig/001.mgz /Users/freesurfer_user/Documents/GitHub/Edits-FreeSurfer-Training-Data/sub-09/mri/rawavg.mgz \n
+\n mri_convert /Users/freesurfer_user/Documents/GitHub/Edits-FreeSurfer-Training-Data/sub-09/mri/rawavg.mgz /Users/freesurfer_user/Documents/GitHub/Edits-FreeSurfer-Training-Data/sub-09/mri/orig.mgz --conform \n
+\n mri_add_xform_to_header -c /Users/freesurfer_user/Documents/GitHub/Edits-FreeSurfer-Training-Data/sub-09/mri/transforms/talairach.xfm /Users/freesurfer_user/Documents/GitHub/Edits-FreeSurfer-Training-Data/sub-09/mri/orig.mgz /Users/freesurfer_user/Documents/GitHub/Edits-FreeSurfer-Training-Data/sub-09/mri/orig.mgz \n
+\n\n#---------------------------------
+# New invocation of recon-all Fri Jul 14 08:31:14 EDT 2017 
+#--------------------------------------------
+#@# Talairach Fri Jul 14 08:31:14 EDT 2017
+\n mri_nu_correct.mni --no-rescale --i orig.mgz --o orig_nu.mgz --n 1 --proto-iters 1000 --distance 50 \n
+\n talairach_avi --i orig_nu.mgz --xfm transforms/talairach.auto.xfm \n
+talairach_avi log file is transforms/talairach_avi.log...
+\nINFO: transforms/talairach.xfm already exists!
+The new transforms/talairach.auto.xfm will not be copied to transforms/talairach.xfm
+This is done to retain any edits made to transforms/talairach.xfm
+Add the -clean-tal flag to recon-all to overwrite transforms/talairach.xfm\n
+#--------------------------------------------
+#@# Talairach Failure Detection Fri Jul 14 08:33:40 EDT 2017
+\n talairach_afd -T 0.005 -xfm transforms/talairach.xfm \n
+\n awk -f /Applications/freesurfer/bin/extract_talairach_avi_QA.awk /Users/freesurfer_user/Documents/GitHub/Edits-FreeSurfer-Training-Data/sub-09/mri/transforms/talairach_avi.log \n
+\n tal_QC_AZS /Users/freesurfer_user/Documents/GitHub/Edits-FreeSurfer-Training-Data/sub-09/mri/transforms/talairach_avi.log \n
+\n\n#---------------------------------
+# New invocation of recon-all Fri Jul 14 08:33:40 EDT 2017 
+#--------------------------------------------
+#@# Nu Intensity Correction Fri Jul 14 08:33:41 EDT 2017
+\n mri_nu_correct.mni --i orig.mgz --o nu.mgz --uchar transforms/talairach.xfm --n 2 \n
+\n mri_add_xform_to_header -c /Users/freesurfer_user/Documents/GitHub/Edits-FreeSurfer-Training-Data/sub-09/mri/transforms/talairach.xfm nu.mgz nu.mgz \n
+\n\n#---------------------------------
+# New invocation of recon-all Fri Jul 14 08:36:31 EDT 2017 
+#--------------------------------------------
+#@# Intensity Normalization Fri Jul 14 08:36:31 EDT 2017
+\n mri_normalize -g 1 -mprage nu.mgz T1.mgz \n
+\n\n#---------------------------------
+# New invocation of recon-all Fri Jul 14 08:40:02 EDT 2017 
+#--------------------------------------------
+#@# Skull Stripping Fri Jul 14 08:40:02 EDT 2017
+\n mri_watershed -rusage /Users/freesurfer_user/Documents/GitHub/Edits-FreeSurfer-Training-Data/sub-09/touch/rusage.mri_watershed.dat -T1 -brain_atlas /Applications/freesurfer/average/RB_all_withskull_2016-05-10.vc700.gca transforms/talairach_with_skull.lta T1.mgz brainmask.auto.mgz \n
+\nINFO: brainmask.mgz already exists!
+The new brainmask.auto.mgz will not be copied to brainmask.mgz.
+This is done to retain any edits made to brainmask.mgz.
+Add the -clean-bm flag to recon-all to overwrite brainmask.mgz.\n
+\n\n#---------------------------------
+# New invocation of recon-all Fri Jul 14 08:40:50 EDT 2017 
+#-------------------------------------
+#@# EM Registration Fri Jul 14 08:40:50 EDT 2017
+\n mri_em_register -rusage /Users/freesurfer_user/Documents/GitHub/Edits-FreeSurfer-Training-Data/sub-09/touch/rusage.mri_em_register.dat -uns 3 -mask brainmask.mgz nu.mgz /Applications/freesurfer/average/RB_all_2016-05-10.vc700.gca transforms/talairach.lta \n
+\n\n#---------------------------------
+# New invocation of recon-all Fri Jul 14 09:01:22 EDT 2017 
+#--------------------------------------
+#@# CA Normalize Fri Jul 14 09:01:22 EDT 2017
+\n mri_ca_normalize -c ctrl_pts.mgz -mask brainmask.mgz nu.mgz /Applications/freesurfer/average/RB_all_2016-05-10.vc700.gca transforms/talairach.lta norm.mgz \n
+\n\n#---------------------------------
+# New invocation of recon-all Fri Jul 14 09:03:23 EDT 2017 
+#--------------------------------------
+#@# CA Reg Fri Jul 14 09:03:23 EDT 2017
+\n mri_ca_register -rusage /Users/freesurfer_user/Documents/GitHub/Edits-FreeSurfer-Training-Data/sub-09/touch/rusage.mri_ca_register.dat -nobigventricles -T transforms/talairach.lta -align-after -mask brainmask.mgz norm.mgz /Applications/freesurfer/average/RB_all_2016-05-10.vc700.gca transforms/talairach.m3z \n
+\n\n#---------------------------------
+# New invocation of recon-all Fri Jul 14 13:36:05 EDT 2017 
+#--------------------------------------
+#@# SubCort Seg Fri Jul 14 13:36:06 EDT 2017
+\n mri_ca_label -relabel_unlikely 9 .3 -prior 0.5 -align norm.mgz transforms/talairach.m3z /Applications/freesurfer/average/RB_all_2016-05-10.vc700.gca aseg.auto_noCCseg.mgz \n

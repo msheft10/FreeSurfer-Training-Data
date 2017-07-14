@@ -394,3 +394,480 @@ status file for recon-all
 Fri Jul  7 15:29:04 EDT 2017
 #@# BA_exvivo Labels rh Fri Jul  7 15:29:04 EDT 2017
 recon-all -s sub-06 finished without error at Fri Jul  7 15:33:51 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jul 12 10:17:41 EDT 2017
+#@# MotionCor Wed Jul 12 10:17:41 EDT 2017
+recon-all -s sub-06 finished without error at Wed Jul 12 10:17:50 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jul 12 10:17:51 EDT 2017
+#@# Talairach Wed Jul 12 10:17:51 EDT 2017
+#@# Talairach Failure Detection Wed Jul 12 10:21:12 EDT 2017
+recon-all -s sub-06 finished without error at Wed Jul 12 10:21:13 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jul 12 10:21:14 EDT 2017
+#@# Nu Intensity Correction Wed Jul 12 10:21:14 EDT 2017
+recon-all -s sub-06 finished without error at Wed Jul 12 10:25:11 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jul 12 10:25:12 EDT 2017
+#@# Intensity Normalization Wed Jul 12 10:25:12 EDT 2017
+recon-all -s sub-06 finished without error at Wed Jul 12 10:29:24 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jul 12 10:29:25 EDT 2017
+#@# Skull Stripping Wed Jul 12 10:29:25 EDT 2017
+recon-all -s sub-06 finished without error at Wed Jul 12 10:30:29 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jul 12 10:30:30 EDT 2017
+#@# EM Registration Wed Jul 12 10:30:30 EDT 2017
+recon-all -s sub-06 finished without error at Wed Jul 12 10:54:19 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jul 12 10:54:20 EDT 2017
+#@# CA Normalize Wed Jul 12 10:54:20 EDT 2017
+recon-all -s sub-06 finished without error at Wed Jul 12 10:57:12 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jul 12 10:57:13 EDT 2017
+#@# CA Reg Wed Jul 12 10:57:13 EDT 2017
+recon-all -s sub-06 finished without error at Wed Jul 12 16:25:41 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jul 12 16:25:42 EDT 2017
+#@# SubCort Seg Wed Jul 12 16:25:42 EDT 2017
+#@# Merge ASeg Wed Jul 12 17:25:11 EDT 2017
+recon-all -s sub-06 finished without error at Wed Jul 12 17:25:11 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jul 12 17:25:12 EDT 2017
+#@# Intensity Normalization2 Wed Jul 12 17:25:12 EDT 2017
+recon-all -s sub-06 finished without error at Wed Jul 12 17:30:27 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jul 12 17:30:28 EDT 2017
+#@# Mask BFS Wed Jul 12 17:30:28 EDT 2017
+recon-all -s sub-06 finished without error at Wed Jul 12 17:30:32 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jul 12 17:30:33 EDT 2017
+#@# WM Segmentation Wed Jul 12 17:30:33 EDT 2017
+recon-all -s sub-06 finished without error at Wed Jul 12 17:34:15 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jul 12 17:34:16 EDT 2017
+#@# Fill Wed Jul 12 17:34:16 EDT 2017
+recon-all -s sub-06 finished without error at Wed Jul 12 17:35:23 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jul 12 17:35:24 EDT 2017
+#@# Tessellate lh Wed Jul 12 17:35:24 EDT 2017
+recon-all -s sub-06 finished without error at Wed Jul 12 17:35:37 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jul 12 17:35:38 EDT 2017
+#@# Tessellate rh Wed Jul 12 17:35:38 EDT 2017
+recon-all -s sub-06 finished without error at Wed Jul 12 17:35:52 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jul 12 17:35:53 EDT 2017
+#@# Smooth1 lh Wed Jul 12 17:35:53 EDT 2017
+recon-all -s sub-06 finished without error at Wed Jul 12 17:36:06 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jul 12 17:36:07 EDT 2017
+#@# Smooth1 rh Wed Jul 12 17:36:07 EDT 2017
+recon-all -s sub-06 finished without error at Wed Jul 12 17:36:20 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jul 12 17:36:20 EDT 2017
+#@# Inflation1 lh Wed Jul 12 17:36:21 EDT 2017
+recon-all -s sub-06 finished without error at Wed Jul 12 17:37:20 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jul 12 17:37:21 EDT 2017
+#@# Inflation1 rh Wed Jul 12 17:37:21 EDT 2017
+recon-all -s sub-06 finished without error at Wed Jul 12 17:38:22 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jul 12 17:38:22 EDT 2017
+#@# QSphere lh Wed Jul 12 17:38:22 EDT 2017
+recon-all -s sub-06 finished without error at Wed Jul 12 17:43:39 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jul 12 17:43:39 EDT 2017
+#@# QSphere rh Wed Jul 12 17:43:39 EDT 2017
+recon-all -s sub-06 finished without error at Wed Jul 12 17:48:34 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jul 12 17:48:35 EDT 2017
+#@# Fix Topology Copy lh Wed Jul 12 17:48:35 EDT 2017
+#@# Fix Topology lh Wed Jul 12 17:48:35 EDT 2017
+recon-all -s sub-06 finished without error at Wed Jul 12 18:43:10 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jul 12 18:43:10 EDT 2017
+#@# Fix Topology Copy rh Wed Jul 12 18:43:10 EDT 2017
+#@# Fix Topology rh Wed Jul 12 18:43:10 EDT 2017
+recon-all -s sub-06 finished without error at Wed Jul 12 19:38:22 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jul 12 19:38:23 EDT 2017
+#@# Make White Surf lh Wed Jul 12 19:38:23 EDT 2017
+recon-all -s sub-06 finished without error at Wed Jul 12 19:58:53 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jul 12 19:58:54 EDT 2017
+#@# Make White Surf rh Wed Jul 12 19:58:54 EDT 2017
+recon-all -s sub-06 finished without error at Wed Jul 12 20:19:48 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jul 12 20:19:48 EDT 2017
+#@# Smooth2 lh Wed Jul 12 20:19:48 EDT 2017
+recon-all -s sub-06 finished without error at Wed Jul 12 20:20:00 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jul 12 20:20:00 EDT 2017
+#@# Inflation2 lh Wed Jul 12 20:20:00 EDT 2017
+recon-all -s sub-06 finished without error at Wed Jul 12 20:20:47 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jul 12 20:20:48 EDT 2017
+#@# Sphere lh Wed Jul 12 20:20:48 EDT 2017
+recon-all -s sub-06 finished without error at Wed Jul 12 21:10:27 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jul 12 21:10:27 EDT 2017
+#@# Surf Reg lh Wed Jul 12 21:10:27 EDT 2017
+recon-all -s sub-06 finished without error at Wed Jul 12 22:18:29 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jul 12 22:18:30 EDT 2017
+#@# Cortical Parc lh Wed Jul 12 22:18:30 EDT 2017
+recon-all -s sub-06 finished without error at Wed Jul 12 22:18:53 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jul 12 22:18:54 EDT 2017
+#@# Make Pial Surf lh Wed Jul 12 22:18:54 EDT 2017
+#@# Surf Volume lh Wed Jul 12 22:39:13 EDT 2017
+recon-all -s sub-06 finished without error at Wed Jul 12 22:39:19 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jul 12 22:39:19 EDT 2017
+#@# Surf Volume lh Wed Jul 12 22:39:19 EDT 2017
+recon-all -s sub-06 finished without error at Wed Jul 12 22:39:24 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jul 12 22:39:24 EDT 2017
+#@# Smooth2 rh Wed Jul 12 22:39:24 EDT 2017
+recon-all -s sub-06 finished without error at Wed Jul 12 22:39:35 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jul 12 22:39:36 EDT 2017
+#@# Inflation2 rh Wed Jul 12 22:39:36 EDT 2017
+recon-all -s sub-06 finished without error at Wed Jul 12 22:40:23 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jul 12 22:40:23 EDT 2017
+#@# Sphere rh Wed Jul 12 22:40:23 EDT 2017
+recon-all -s sub-06 finished without error at Wed Jul 12 23:38:14 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Wed Jul 12 23:38:15 EDT 2017
+#@# Surf Reg rh Wed Jul 12 23:38:15 EDT 2017
+recon-all -s sub-06 finished without error at Thu Jul 13 00:55:47 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Thu Jul 13 00:55:48 EDT 2017
+#@# Cortical Parc rh Thu Jul 13 00:55:48 EDT 2017
+recon-all -s sub-06 finished without error at Thu Jul 13 00:56:10 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Thu Jul 13 00:56:10 EDT 2017
+#@# Make Pial Surf rh Thu Jul 13 00:56:10 EDT 2017
+#@# Surf Volume rh Thu Jul 13 01:16:06 EDT 2017
+recon-all -s sub-06 finished without error at Thu Jul 13 01:16:11 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Thu Jul 13 01:16:11 EDT 2017
+#@# Surf Volume rh Thu Jul 13 01:16:11 EDT 2017
+recon-all -s sub-06 finished without error at Thu Jul 13 01:16:16 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Thu Jul 13 01:16:17 EDT 2017
+#@# Curv .H and .K lh Thu Jul 13 01:16:17 EDT 2017
+recon-all -s sub-06 finished without error at Thu Jul 13 01:17:45 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Thu Jul 13 01:17:45 EDT 2017
+#@# Curv .H and .K rh Thu Jul 13 01:17:45 EDT 2017
+recon-all -s sub-06 finished without error at Thu Jul 13 01:19:17 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Thu Jul 13 01:19:17 EDT 2017
+#@# Curvature Stats lh Thu Jul 13 01:19:17 EDT 2017
+recon-all -s sub-06 finished without error at Thu Jul 13 01:19:25 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Thu Jul 13 01:19:26 EDT 2017
+#@# Curvature Stats rh Thu Jul 13 01:19:26 EDT 2017
+recon-all -s sub-06 finished without error at Thu Jul 13 01:19:33 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Thu Jul 13 01:19:34 EDT 2017
+#@# Jacobian white lh Thu Jul 13 01:19:34 EDT 2017
+recon-all -s sub-06 finished without error at Thu Jul 13 01:19:37 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Thu Jul 13 01:19:37 EDT 2017
+#@# Jacobian white rh Thu Jul 13 01:19:37 EDT 2017
+recon-all -s sub-06 finished without error at Thu Jul 13 01:19:40 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Thu Jul 13 01:19:40 EDT 2017
+#@# AvgCurv lh Thu Jul 13 01:19:40 EDT 2017
+recon-all -s sub-06 finished without error at Thu Jul 13 01:19:43 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Thu Jul 13 01:19:44 EDT 2017
+#@# AvgCurv rh Thu Jul 13 01:19:44 EDT 2017
+recon-all -s sub-06 finished without error at Thu Jul 13 01:19:46 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Thu Jul 13 01:19:46 EDT 2017
+#@# Cortical ribbon mask Thu Jul 13 01:19:46 EDT 2017
+recon-all -s sub-06 finished without error at Thu Jul 13 01:34:39 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Thu Jul 13 01:34:40 EDT 2017
+#@# Parcellation Stats lh Thu Jul 13 01:34:40 EDT 2017
+recon-all -s sub-06 finished without error at Thu Jul 13 01:36:51 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Thu Jul 13 01:36:52 EDT 2017
+#@# Parcellation Stats rh Thu Jul 13 01:36:52 EDT 2017
+recon-all -s sub-06 finished without error at Thu Jul 13 01:39:03 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Thu Jul 13 01:39:04 EDT 2017
+#@# Cortical Parc 2 lh Thu Jul 13 01:39:04 EDT 2017
+recon-all -s sub-06 finished without error at Thu Jul 13 01:39:32 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Thu Jul 13 01:39:32 EDT 2017
+#@# Cortical Parc 2 rh Thu Jul 13 01:39:32 EDT 2017
+recon-all -s sub-06 finished without error at Thu Jul 13 01:40:00 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Thu Jul 13 01:40:00 EDT 2017
+#@# Parcellation Stats 2 lh Thu Jul 13 01:40:01 EDT 2017
+recon-all -s sub-06 finished without error at Thu Jul 13 01:41:10 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Thu Jul 13 01:41:10 EDT 2017
+#@# Parcellation Stats 2 rh Thu Jul 13 01:41:10 EDT 2017
+recon-all -s sub-06 finished without error at Thu Jul 13 01:42:41 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Thu Jul 13 01:42:41 EDT 2017
+#@# Cortical Parc 3 lh Thu Jul 13 01:42:41 EDT 2017
+recon-all -s sub-06 finished without error at Thu Jul 13 01:43:10 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Thu Jul 13 01:43:10 EDT 2017
+#@# Cortical Parc 3 rh Thu Jul 13 01:43:10 EDT 2017
+recon-all -s sub-06 finished without error at Thu Jul 13 01:43:37 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Thu Jul 13 01:43:38 EDT 2017
+#@# Parcellation Stats 3 lh Thu Jul 13 01:43:38 EDT 2017
+recon-all -s sub-06 finished without error at Thu Jul 13 01:45:06 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Thu Jul 13 01:45:06 EDT 2017
+#@# Parcellation Stats 3 rh Thu Jul 13 01:45:06 EDT 2017
+recon-all -s sub-06 finished without error at Thu Jul 13 01:46:28 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Thu Jul 13 01:46:28 EDT 2017
+#@# WM/GM Contrast lh Thu Jul 13 01:46:28 EDT 2017
+recon-all -s sub-06 finished without error at Thu Jul 13 01:46:39 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Thu Jul 13 01:46:40 EDT 2017
+#@# WM/GM Contrast rh Thu Jul 13 01:46:40 EDT 2017
+recon-all -s sub-06 finished without error at Thu Jul 13 01:46:50 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Thu Jul 13 01:46:50 EDT 2017
+#@# Relabel Hypointensities Thu Jul 13 01:46:50 EDT 2017
+recon-all -s sub-06 finished without error at Thu Jul 13 01:47:32 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Thu Jul 13 01:47:32 EDT 2017
+#@# AParc-to-ASeg aparc Thu Jul 13 01:47:32 EDT 2017
+#@# AParc-to-ASeg a2009s Thu Jul 13 01:57:22 EDT 2017
+#@# AParc-to-ASeg DKTatlas Thu Jul 13 02:07:17 EDT 2017
+recon-all -s sub-06 finished without error at Thu Jul 13 02:17:32 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Thu Jul 13 02:17:33 EDT 2017
+#@# APas-to-ASeg Thu Jul 13 02:17:33 EDT 2017
+recon-all -s sub-06 finished without error at Thu Jul 13 02:17:42 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Thu Jul 13 02:17:42 EDT 2017
+#@# ASeg Stats Thu Jul 13 02:17:42 EDT 2017
+recon-all -s sub-06 finished without error at Thu Jul 13 02:23:22 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Thu Jul 13 02:23:23 EDT 2017
+#@# WMParc Thu Jul 13 02:23:23 EDT 2017
+recon-all -s sub-06 finished without error at Thu Jul 13 02:43:09 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Thu Jul 13 02:43:09 EDT 2017
+#@# BA_exvivo Labels lh Thu Jul 13 02:43:10 EDT 2017
+recon-all -s sub-06 finished without error at Thu Jul 13 02:49:33 EDT 2017
+\n\n
+New invocation of recon-all 
+\n\n
+status file for recon-all
+Thu Jul 13 02:49:33 EDT 2017
+#@# BA_exvivo Labels rh Thu Jul 13 02:49:33 EDT 2017
+recon-all -s sub-06 finished without error at Thu Jul 13 02:55:54 EDT 2017
