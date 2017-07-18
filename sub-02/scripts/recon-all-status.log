@@ -892,3 +892,50 @@ Fri Jul 14 12:14:35 EDT 2017
 #@# Fix Topology Copy rh Fri Jul 14 12:41:14 EDT 2017
 #@# Fix Topology lh Fri Jul 14 12:41:14 EDT 2017
 #@# Fix Topology rh Fri Jul 14 13:31:09 EDT 2017
+#@# Make White Surf lh Fri Jul 14 14:36:12 EDT 2017
+#@# Make White Surf rh Fri Jul 14 14:42:54 EDT 2017
+#@# Smooth2 lh Fri Jul 14 14:49:47 EDT 2017
+#@# Smooth2 rh Fri Jul 14 14:49:59 EDT 2017
+#@# Inflation2 lh Fri Jul 14 14:50:12 EDT 2017
+#@# Inflation2 rh Fri Jul 14 14:50:59 EDT 2017
+#@# Curv .H and .K lh Fri Jul 14 14:51:48 EDT 2017
+#@# Curv .H and .K rh Fri Jul 14 14:53:22 EDT 2017
+#@# Curvature Stats lh Fri Jul 14 14:54:58 EDT 2017
+#@# Curvature Stats rh Fri Jul 14 14:55:07 EDT 2017
+#@# Sphere lh Fri Jul 14 14:55:15 EDT 2017
+#@# Sphere rh Fri Jul 14 15:31:38 EDT 2017
+#@# Surf Reg lh Fri Jul 14 16:06:41 EDT 2017
+#@# Surf Reg rh Fri Jul 14 17:23:24 EDT 2017
+#@# Jacobian white lh Fri Jul 14 18:50:38 EDT 2017
+#@# Jacobian white rh Fri Jul 14 18:50:42 EDT 2017
+#@# AvgCurv lh Fri Jul 14 18:50:45 EDT 2017
+#@# AvgCurv rh Fri Jul 14 18:50:48 EDT 2017
+#@# Cortical Parc lh Fri Jul 14 18:50:50 EDT 2017
+#@# Cortical Parc rh Fri Jul 14 18:51:19 EDT 2017
+#@# Make Pial Surf lh Fri Jul 14 18:51:48 EDT 2017
+#@# Make Pial Surf rh Fri Jul 14 19:14:13 EDT 2017
+#@# Surf Volume lh Fri Jul 14 19:36:10 EDT 2017
+#@# Surf Volume rh Fri Jul 14 19:36:16 EDT 2017
+#@# Cortical ribbon mask Fri Jul 14 19:36:21 EDT 2017
+#@# Parcellation Stats lh Fri Jul 14 19:55:26 EDT 2017
+#@# Parcellation Stats rh Fri Jul 14 19:58:10 EDT 2017
+#@# Cortical Parc 2 lh Fri Jul 14 20:01:00 EDT 2017
+#@# Cortical Parc 2 rh Fri Jul 14 20:01:31 EDT 2017
+#@# Parcellation Stats 2 lh Fri Jul 14 20:02:04 EDT 2017
+#@# Parcellation Stats 2 rh Fri Jul 14 20:03:28 EDT 2017
+#@# Cortical Parc 3 lh Fri Jul 14 20:04:55 EDT 2017
+#@# Cortical Parc 3 rh Fri Jul 14 20:05:24 EDT 2017
+#@# Parcellation Stats 3 lh Fri Jul 14 20:05:53 EDT 2017
+#@# Parcellation Stats 3 rh Fri Jul 14 20:07:46 EDT 2017
+#@# WM/GM Contrast lh Fri Jul 14 20:09:41 EDT 2017
+#@# WM/GM Contrast rh Fri Jul 14 20:09:53 EDT 2017
+#@# Relabel Hypointensities Fri Jul 14 20:10:05 EDT 2017
+#@# AParc-to-ASeg aparc Fri Jul 14 20:10:55 EDT 2017
+#@# AParc-to-ASeg a2009s Fri Jul 14 20:25:12 EDT 2017
+#@# AParc-to-ASeg DKTatlas Fri Jul 14 20:39:36 EDT 2017
+#@# APas-to-ASeg Fri Jul 14 20:53:54 EDT 2017
+#@# ASeg Stats Fri Jul 14 20:54:04 EDT 2017
+#@# WMParc Fri Jul 14 21:01:17 EDT 2017
+#@# BA_exvivo Labels lh Fri Jul 14 21:28:28 EDT 2017
+#@# BA_exvivo Labels rh Fri Jul 14 21:35:57 EDT 2017
+recon-all -s sub-02 finished without error at Fri Jul 14 21:43:42 EDT 2017
